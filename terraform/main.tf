@@ -4,7 +4,7 @@ provider "azurerm" {
 }
 
 # Create a resource group
-resources "azurerm_resource_group" "example" {
-  name     = "cst8918-lab9-rg"
+resource "azurerm_resource_group" "example" {
+  namee     = "cst8918-lab9-rg"
   location = "East US"
 }
